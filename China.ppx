@@ -32,6 +32,7 @@
 *.ipip.net;
 proxifier.com;
 wyav.tv;
+github.io;
 </ExclusionList>
         </Resolve>
         <Encryption mode="basic"/>
@@ -63,7 +64,8 @@ wyav.tv;
         </Rule>
         <Rule enabled="true">
             <Name>OverWall</Name>
-            <Targets>*.googletagmanager.com;
+            <Targets>
+*.googletagmanager.com;
 *.dnvodcdn.me;
 *.fontawesome.com;
 *.jquery.com;
@@ -88,7 +90,9 @@ wyav.tv;
 *.baiinfo.com;
 *.ipip.net;
 proxifier.com;
-wyav.tv;</Targets>
+wyav.tv;
+github.io;
+</Targets>
             <Action type="Proxy">100</Action>
         </Rule>
         <Rule enabled="true">
