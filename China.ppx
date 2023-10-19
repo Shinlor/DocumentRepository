@@ -6,7 +6,8 @@
             <ViaProxy enabled="true">
                 <TryLocalDnsFirst enabled="false"/>
             </ViaProxy>
-            <ExclusionList OnlyFromListMode="true" ExcludeSimpleHostnames="true" ExcludeLocalhost="true" ExcludeSelfHostname="true" ExcludeLocalDomain="true">*.googletagmanager.com;
+            <ExclusionList OnlyFromListMode="true" ExcludeSimpleHostnames="true" ExcludeLocalhost="true" ExcludeSelfHostname="true" ExcludeLocalDomain="true">
+*.googletagmanager.com;
 *.dnvodcdn.me;
 *.fontawesome.com;
 *.jquery.com;
@@ -31,9 +32,9 @@
 *.baiinfo.com;
 *.ipip.net;
 proxifier.com;
-wyav.tv;
+wyav.*;
 github.io;
-iyf.tv;
+iyf.*;
 githubusercontent.com;
 </ExclusionList>
         </Resolve>
