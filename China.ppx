@@ -33,6 +33,7 @@
 proxifier.com;
 wyav.tv;
 github.io;
+iyf.tv;
 </ExclusionList>
         </Resolve>
         <Encryption mode="basic"/>
@@ -92,6 +93,7 @@ github.io;
 proxifier.com;
 wyav.tv;
 github.io;
+iyf.tv;
 </Targets>
             <Action type="Proxy">100</Action>
         </Rule>
